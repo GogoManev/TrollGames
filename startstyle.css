@@ -24,23 +24,6 @@
     font-size: 20px;
 }
 
-#gamesButton{
-    color: white;
-    background-color: #1c4479;
-    cursor:pointer;
-    font-size: 20px;
-    border-color: #1c4479;
-    border-radius: 30px;
-    padding: 8px;
-    box-shadow: 3px 3px 3px black;
-    transition: 0.5s;
-}
-
-#gamesButton:hover{
-    border-color: white;
-    background-color: #436592;
-}
-
 #review, 
 #preview{
     float: left;
