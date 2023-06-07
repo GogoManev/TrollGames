@@ -140,6 +140,48 @@ img#storeImg{
     margin-right: 0.5%;
 }
 
+#aboutteam{
+    text-align: center;
+    font-size: 30px; 
+}
+
+#gogo{
+    position:absolute;
+    top:600px;
+    left:140px;
+    font-size: 20px;
+    text-align: left;
+    width:300px;
+}
+
+#sami{
+    position:absolute;
+    top:600px;
+    left:575px;
+    font-size: 20px;
+    width:300px;
+    text-align: left;
+}
+
+#teo{
+    position:absolute;
+    font-size: 20px;
+    text-align: left;
+    width:300px;
+    top:600px;
+    left:1020px;
+}
+
+#footer1{
+    position:absolute;
+    top:980px;
+    background-color: #1c4479;
+    overflow: hidden;
+    width: 100%;
+    color:#ccd2db;
+}
+
+
 @media screen and (max-width: 800px) {
     #navbar{
         display: grid;
