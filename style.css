@@ -13,7 +13,7 @@ h2{
     position: -webkit-sticky;
     background-color: #1c4479;
     display: flex;
-    top: 0;
+    top: 0%;
     width: 100%;
 }
 
@@ -102,35 +102,65 @@ b{
     margin-left: 1%;
 }
 
-#gameShowcase > img{
+#gameShowcase > img,
+#shopShowcase > img{
     width: 100%;
     height: 300px;
     border-radius: 20px;
 }
 
-#gameShowcase{
+#gameShowcase,
+#shopShowcase{
     text-align: left;
     width: 48%;
     float: left;
     margin: 1%;
-    background-color: #1c4479;
+    padding-bottom: 0.5%;
     color: white;
     border-radius: 20px;
-    border-color: aquamarine;
     box-shadow: 5px 5px 5px black;
+    display:block;
 }
 
-#gameShowcase > button{
+#gameShowcase > button,
+#shopShowcase > button{
     padding: 4px;
     margin-left: 1%;
     float: left;
     background-color: #1c69cf;
 }
 
-#gameShowcase > a{
+#gameShowcase > a,
+#shopShowcase > a{
     float: right;
-    font-size: larger;
+    font-size: x-large;
     font-weight: bold;
+}
+
+#gameShowcase > p,
+#gameShowcase > h3{
+    margin-left: 1%;
+}
+
+#gameShowcase > hr{
+    color: #b8bdc5;
+}
+
+img#storeImg{
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+#shopShowcase{
+    color: black;
+    border-style:solid;
+    width: 47%;
+    box-shadow: 0px 0px 0px black;
+}
+
+#gamesShop{
+    padding-bottom: 1000px;
 }
 
 img#storeImg{
@@ -139,6 +169,7 @@ img#storeImg{
     height: 30px;
     margin-right: 0.5%;
 }
+
 
 #aboutteam{
     text-align: center;
