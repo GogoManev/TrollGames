@@ -1,6 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
-    
+
 }
 
 
@@ -29,48 +29,62 @@ p {
     background-color: rgba(0, 0, 0, 0.397);
     font-size: 31px;
     text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
+
 
 td {
     padding: 15px;
-<  border: 1px solid;
-  }
+}
 
-.mytable{
- width: 90%;
- left: 5%;
- position: relative;
+.mytable {
+    width: 90%;
+    left: 5%;
+    position: relative;
 }
 
 .myimagelink {
-    display: inline-block;    
+    display: inline-block;
 }
 
-a:link { text-decoration: none; }
-a:visited { color:black; text-decoration: none; }
+a:link {
+    text-decoration: none;
+}
 
-a:active { text-decoration: none; }
-a:hover { color: rgb(238, 49, 49); }
+a:visited {
+    color: black;
+    text-decoration: none;
+}
 
-.mytable2{
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(238, 49, 49);
+}
+
+.mytable2 {
     width: 100%;
     text-align: left;
     font-size: 150%;
     font-weight: 900;
-   }
+}
 
-   .news{
+.news {
     border-bottom: 1px solid #e6e6e6;
-text-align: left;
-font-size: 27px;
-background-color:  ;
+    text-align: left;
+    font-size: 27px;
 
-   }
- 
-   .mytable2 a:link {color: black;}  
-  .mytable2 a:hover {color: rgb(238, 49, 49);}
+}
 
+.mytable2 a:link {
+    color: black;
+}
+
+.mytable2 a:hover {
+    color: rgb(238, 49, 49);
+}
