@@ -133,7 +133,7 @@ b{
 
 #gameShowcase > a,
 #shopShowcase > a{
-    float: right;
+    padding-left: 1%;
     font-size: x-large;
     font-weight: bold;
 }
@@ -143,14 +143,8 @@ b{
     margin-left: 1%;
 }
 
-#gameShowcase > hr{
-    color: #b8bdc5;
-}
-
-img#storeImg{
-    float: right;
-    width: 30px;
-    height: 30px;
+hr{
+    color: white;
 }
 
 #shopShowcase{
@@ -160,17 +154,15 @@ img#storeImg{
     box-shadow: 0px 0px 0px black;
 }
 
+img#storeImg{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -0.5%;
+}
+
 #gamesShop{
     padding-bottom: 1000px;
 }
-
-img#storeImg{
-    float: right;
-    width: 30px;
-    height: 30px;
-    margin-right: 0.5%;
-}
-
 
 #aboutteam{
     text-align: center;
@@ -211,20 +203,4 @@ img#storeImg{
     overflow: hidden;
     width: 100%;
     color:#ccd2db;
-}
-
-
-@media screen and (max-width: 800px) {
-    #navbar{
-        display: grid;
-    }
-
-    #links > a{
-        font-size: 27px;
-    }
-
-    #links > a:hover{
-        color: yellow;
-        font-size: 27px;
-    }
 }

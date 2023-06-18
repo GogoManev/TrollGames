@@ -36,10 +36,10 @@
 }
 
 #ProductsImg > a > img{
-    width: 23.6%;
+    width: 23%;
     height: 200px;
     border-radius: 20px;
-    margin-right: 1%;
+    margin-left: 1%;
     margin-bottom: 200px;
     float: left;
     border-style:solid;
@@ -81,19 +81,4 @@
 #preview > h3 > a{
     font-size: medium;
     color:darkgray;
-}
-
-@media screen and (max-width: 800px) {
-    #About,
-    #Products,
-    #Reviews{
-      width: 100%;
-      text-align: left;
-      padding-right: 0%;
-    }
-
-    #review, 
-    #preview{
-        width: 95%;
-    }
 }
