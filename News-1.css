@@ -40,6 +40,24 @@ td {
     padding: 15px;
 }
 
+.mytext{
+padding-left: 27%;
+padding-right: 27%;
+padding-top: 70px;
+}
+
+.textbody {
+font-size: 130%;
+}
+
+.textheader {
+    font-weight: bold;
+    font-size: 170%;
+    padding-bottom:11px;
+    padding-top: 15px;
+    font-style: italic;
+}
+
 .mytable {
     width: 90%;
     left: 5%;
